@@ -1,0 +1,159 @@
+
+table {
+	border-radius: 10px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.th { /* 게시글 보기 */
+	font-size: 30px;
+	color: DarkOliveGreen;
+	text-align: center;
+	padding: 10px;
+}
+
+.td { /* 글번호, 이름, 작성일, 조회수, 댓글의 이름, 비밀번호, 내용 */
+	height: 25px;
+	color: white;
+	background-color: DarkSeaGreen;
+	padding: 5px;
+}
+
+.td2 { /* 메인글들, 댓글 */
+	background-color: Snow;
+	padding: 5px;
+}
+
+.td3 { /* 제목, 내용 */
+	color: DarkSeaGreen;
+	background-color: Snow;
+	padding: 5px;
+}
+
+a { /* 제목들 하이퍼링크 */
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: PaleVioletRed;
+	text-decoration: underline;
+}
+
+.span1 { /* New */
+	font-size: 10px;
+	color: GoldenRod;
+}
+
+.span2 { /* "Hot" */
+	font-size: 10px;
+	font-weight: bold;
+	color: Tomato;
+}
+
+.button { /* 버튼들 */
+	width: 100px;
+	height: 25px;
+	font-size: 13px;
+}
+
+.button1 { /* 수정하기 */
+	color: DarkOliveGreen;
+	border: 1px solid white;
+	background-color: white; 
+}
+
+.button1:hover {
+	color: white;
+	border: 1px solid rgb(240, 223, 104); 
+	background-color: rgb(240, 223, 104); 
+	cursor: pointer;
+}
+.button2 { /* 삭제하기 */
+	color: DarkOliveGreen;
+	border: 1px solid white;
+	background-color: white; 
+}
+
+.button2:hover {
+	color: white;
+	border: 1px solid Pink; 
+	background-color: Pink; 
+	cursor: pointer;
+}
+.button3 { /* 돌아가기 */
+	color: DarkOliveGreen;
+	border: 1px solid white;
+	background-color: white; 
+}
+
+.button3:hover {
+	color: white;
+	border: 1px solid LightSteelBlue; 
+	background-color: LightSteelBlue; 
+	cursor: pointer;
+}
+
+form { /* 댓글 폼 */
+	margin: 3px;
+}
+
+.th2 { /* 댓글 */
+	font-size: 20px;
+	color: DarkOliveGreen;
+	text-align: left;
+	padding: 10px;
+}
+
+#name { /* 이름 입력칸 */
+	width: 70%;
+	background-color: Snow;
+	border: none;
+	border-bottom: 1px solid DarkSeaGreen;
+}
+
+#password { /* 비밀번호 입력칸 */
+	width: 70%;
+	background-color: Snow;
+	border: none;
+	border-bottom: 1px solid DarkSeaGreen;
+}
+
+textarea { /* 댓글 입력칸 */
+	font-size: 17px;
+	width: 95%;
+	background-color: Snow;
+	border: 1px solid DarkSeaGreen;
+	padding: 5px;
+	resize: none;
+}
+
+.td4 {
+	background-color: Snow;
+	padding: 5px;
+}
+
+.button4 { /* 댓글 저장 */
+	color: DarkOliveGreen;
+	border: 1px solid white;
+	background-color: white; 
+}
+
+.button4:hover {
+	color: white;
+	border: 1px solid DarkSeaGreen; 
+	background-color: DarkSeaGreen; 
+	cursor: pointer;
+}
+
+.button5 { /* 다시 쓰기 */
+	color: DarkOliveGreen;
+	border: 1px solid white;
+	background-color: white; 
+}
+
+.button5:hover {
+	color: white;
+	border: 1px solid rgb(240, 223, 104); 
+	background-color: rgb(240, 223, 104); 
+	cursor: pointer;
+}
